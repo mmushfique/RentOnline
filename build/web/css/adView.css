@@ -1,0 +1,29 @@
+.carousel-item {
+                    height: 250px;
+                    transition: 0.4s ease-in-out !important;
+                    object-fit: contain;
+                }
+                @media (min-width: 768px) {
+                    .carousel-item {
+                        height: inherit;
+                    }
+                }     
+                /*            .title,
+                            .price {
+                                font-size: 24px;
+                                font-weight: 500;
+                                color: #007bff;
+                                font-family: serif;
+                            }*/
+                /*            @media (min-width: 768px) {
+                                .box {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                .adFullDet {
+                                    flex-grow: 6;
+                                }
+                                .contactInfo {
+                                    flex-grow: 6;
+                                }
+                            }*/

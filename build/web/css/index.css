@@ -1,0 +1,127 @@
+body{
+    background:linear-gradient(225deg,#4158d0,#d62148);
+
+}
+/*#all{
+     background:linear-gradient(225deg,#4158d0,#d62148) !important;
+}*/
+select {
+  cursor: pointer;
+}
+label{
+    margin:0 10px;
+}
+.filterTab{
+    padding-bottom: 10px;
+}
+.filterTab select{
+    margin: 5px 0;
+    width: 200px;
+}
+.filterTab div{
+    width: 100%;
+    text-align: right;
+}
+#filterPop {
+  background-color: hsla(210, 10%, 23%, 0.7);
+  transition: 0.25s ease-in-out;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  color: white;
+  width: 100%;
+}
+#houseFilter {
+  display: none;
+}
+.btn-group-sm {
+  text-align: center;
+  display: block;
+}
+.sort select{
+    width: fit-content;
+    margin-left: 10px;
+}
+.sort{
+    text-align: right;
+}
+#imgbox{
+    max-width: 100%;
+  height: 50% !important;
+  object-fit: cover;
+}
+
+.adImg {
+/*  max-width: 100%;
+  height: 50%;
+  */
+}
+#allAds{
+    background-color: white !important;
+    margin: 20px auto;
+    width: 80%;
+}
+#allAds a{
+    transition: box-shadow 0.25s;
+    text-decoration: none;
+}
+#allAds a:hover {
+  box-shadow: 0 0 10px 0 #66626282;
+}
+.allAdsBox{
+background-color: transparent;
+  text-align: center;
+  margin:30px auto !important;
+  padding: 20px;
+}
+@media (min-width:768px){
+    #filterPop{
+        width:50%;
+    }
+    .filterTab div{
+        width: fit-content !important;
+        display: inline-block;
+    }
+    .filterTab{
+        text-align: right;
+    }
+    .allAdsBox{
+        width: 70%;
+    }
+}
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    font-size: 30px;
+    opacity:0.5;
+    transition:opacity 0.25s;
+    cursor:pointer ;
+}
+#backToTop:hover{
+    opacity:1;
+}
+
+.filterTab input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.filterTab button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.filterTab button:hover {
+  background: #ccc;
+}
+

@@ -1,0 +1,91 @@
+#adpostForm {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 hsl(0deg 0% 27%);
+  background-color: #fff;
+  border-radius:5px;
+}
+label,span {
+  margin: 0;
+  color: hsla(0, 0%, 0%, 0.678);
+}
+#adDescription{
+  resize: vertical;
+  height: 80px;
+}
+#adpostForm *:not(label,div,small,.thumbnail) {
+  margin-bottom: 15px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #adpostForm {
+    width: 50%;
+  }
+/*   .adImg {
+    width:45% !important;
+  } */
+  /* .imageDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-Around;
+  } */
+}
+/* .adImg {
+  border-radius: 60px;
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+::-webkit-file-upload-button {
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 60px;
+} */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color:hsl(0, 0%, 75%);
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(0, 0%, 60%);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color:  hsl(0, 0%, 48%);
+}
+#adpostForm h3 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+body{
+    background: linear-gradient(225deg,#4158d0,#d62148);;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+#err,
+#err1{
+  color: hsl(354, 97%, 34%);
+  display:inline-block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.btn{
+  border-radius: 50px;
+}
+.btn-warning{
+  margin-bottom: 15px;
+}
+.thumbnail{
+  width: 100px;
+  height: 100px;
+  object-fit:cover;
+  outline:1px #6c757d solid;
+  margin: 4px;
+}
